@@ -1,0 +1,236 @@
+body {
+  margin: 0%;
+}
+body .header_section {
+  margin-top: 0%;
+  background-image: url(../images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50vh;
+  background-attachment: fixed;
+}
+body .header_section .list {
+  margin-top: -50px;
+  padding: 25px;
+}
+body .header_section .list ul {
+  padding-top: -5rem;
+  list-style: none;
+}
+body .header_section .list ul li {
+  text-decoration: none;
+  color: white;
+  padding-top: 0.5rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+body .header_section .list ul li img {
+  width: 5rem;
+}
+body .header_section .list ul li label {
+  color: #888;
+  font-size: 25px;
+}
+body .header_section .list ul li input {
+  border: none;
+  border-bottom: 2px solid #444;
+  outline: none;
+  background: transparent;
+  margin-top: -15px;
+}
+body .header_section .list ul li label,
+body .header_section .list ul li input {
+  display: block;
+}
+body .header_section .list_icon {
+  padding-top: 10px;
+  padding-left: 4rem;
+  margin-bottom: 1rem;
+  width: 50px;
+  display: inline;
+}
+body .header_section .list_icon #list_icon {
+  margin-left: 90%;
+  cursor: pointer;
+}
+body .game_section {
+  text-align: center;
+}
+body .game_section #icon,
+body .game_section h1 {
+  display: inline;
+}
+body .game_section h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+body .game_section #icon {
+  width: 50px;
+  text-align: center;
+}
+body .game_section p {
+  font-size: 20px;
+}
+body .game_section .games {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 5fr);
+  margin-top: 5rem;
+  color: white;
+  padding: 20px;
+}
+body .game_section .games .num {
+  border: 2px solid rgb(134, 35, 35);
+  border-radius: 50%;
+  padding: 2px;
+  width: 25px;
+  margin-left: 45%;
+  margin-top: -60%;
+  background-color: #000;
+}
+body .game_section .games .game3 img {
+  height: 67%;
+}
+body .game_section .games button {
+  padding: 15px 30px;
+  margin-top: 80px;
+  color: white;
+  background-color: black;
+  border: 3px solid rgb(134, 35, 35);
+  border-radius: 25px;
+  cursor: pointer;
+}
+body .game_section .games button :hover {
+  background-color: rgb(134, 35, 35);
+  border: none;
+}
+body .another_games {
+  background-color: #000;
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+body .another_games #icon,
+body .another_games h1 {
+  display: inline;
+}
+body .another_games h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+body .another_games p {
+  font-size: 25px;
+}
+body .another_games .min_games {
+  margin: 5rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+}
+body .another_games .min_games .games img {
+  border: 2px solid #fff;
+  padding: 3rem 6rem;
+  width: 50px;
+}
+body .another_games .min_games .games img .game44 {
+  width: 30px;
+}
+body .another_games button {
+  padding: 15px 30px;
+  margin-top: 30px;
+  color: white;
+  background-color: black;
+  border: 3px solid rgb(134, 35, 35);
+  border-radius: 25px;
+  cursor: pointer;
+}
+body .another_games button :hover {
+  background-color: rgb(134, 35, 35);
+  border: none;
+}
+body .footer {
+  margin-top: 5rem;
+  background-color: #252525;
+  text-align: center;
+  color: #fff;
+  padding: 5rem;
+  font-size: 25px;
+}
+body .footer input {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  margin-top: -15px;
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+body .footer input ::placeholder {
+  color: white;
+  font-size: 20px;
+}
+body .footer input,
+body .footer .sub {
+  display: inline;
+}
+body .footer .sub {
+  padding-right: -5px;
+  text-transform: uppercase;
+  text-decoration: underline white 1px;
+}
+body .footer .brands {
+  margin-bottom: 20px;
+}
+body .footer .brands i {
+  border: 1px solid white;
+  background-color: white;
+  color: #444;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+body .footer .connect {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+body .footer .connect div {
+  margin-top: 20px;
+}
+body .footer .connect div i {
+  font-size: 40px;
+}
+body .footer .connect div h2 {
+  font-size: 20px;
+}
+body .footer .connect div li,
+body .footer .connect div h2 {
+  display: inline;
+}
+body .footer .last_line {
+  font-size: 15px;
+  margin-top: 10rem;
+  text-transform: capitalize;
+}
+
+@media (min-width: 480px) {
+  body .game_section .games {
+    display: block;
+  }
+  body .another_games .min_games {
+    display: block;
+  }
+  body .footer .connect {
+    display: block;
+  }
+}
+@media (min-width: 1080px) {
+  body .game_section .games {
+    display: grid;
+  }
+  body .another_games .min_games {
+    display: grid;
+  }
+  body .footer .connect {
+    display: grid;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
